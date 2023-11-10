@@ -1,0 +1,97 @@
+<!-- Created By Ali Aslan  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MySkyPower / CREATIVE PRODUCTION GROUP We are the producers of your ideas. The workshop – the craftsmen – the designers – the engineers. Together we are one. One group of talented people who harness the power to build big ideas. From handmade to high- tech. With you we create. Bring us your ideas, designs, and dreams and we will build them. Whatever the scale. EVERY DAY WE BUILD BIG IDEAS We are MySkyPower." />
+    <meta property="og:title" content="My Sky Power | MSP />
+    <meta property="og:description" content="MySkyPower / CREATIVE PRODUCTION GROUP We are the producers of your ideas. The workshop – the craftsmen – the designers – the engineers. Together we are one. One group of talented people who harness the power to build big ideas. From handmade to high- tech. With you we create. Bring us your ideas, designs, and dreams and we will build them. Whatever the scale. EVERY DAY WE BUILD BIG IDEAS We are MySkyPower." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.myskypower.net/" />
+
+    <title>Awesome Quiz App | تأمين ادارة المخاطر</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="mobile-screen.css"
+    media="(max-width: 800px)"
+  />
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>ابدء الأن</button></div>
+    <div><button id="myButton">الرجوع</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box" style="direction: rtl;">
+        <div class="info-title"><span>بعض قواعد هذا الاختبار</span></div>
+        <div class="info-list">
+            <div class="info">1. سيكون لديك <span>60 ثانية</span> فقط لكل سؤال.</div>
+            <div class="info">2. بمجرد تحديد إجابتك ، لا يمكن التراجع عنها.</div>
+            <div class="info">3. لا يمكنك تحديد أي خيار بمجرد مرور الوقت.</div>
+            <div class="info">4. لا يمكنك الخروج من الاختبار أثناء اللعب.</div>
+            <div class="info">5. ستحصل على نقاط على أساس إجاباتك الصحيحة.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">اختيار الخروج</button>
+            <button class="restart">استمر</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box" dir="rtl">
+        <header>
+            <div class="title">تطبيق مسابقة نيمو</div>
+            <div class="timer">
+                <div class="time_left_txt">الوقت</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">التالي</button>
+
+          </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">لقد أكملت الاختبار!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">إعادة الاختبار</button>
+            <button class="quit">قم بأنهاء الأختبار</button>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/taminAdara.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
