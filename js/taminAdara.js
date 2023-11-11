@@ -38,7 +38,7 @@ let questions = [
   {
     numb: 6,
     question: "عملية التامين تسهل من فرص الحصول علي القرض من البنوك",
-    answer: "خطأ",
+    answer: "صح",
     options: ["صح", "خطأ"],
   },
   {
