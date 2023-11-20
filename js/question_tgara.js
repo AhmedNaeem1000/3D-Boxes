@@ -471,76 +471,76 @@ let questions = [
       ]
     },
     // 21
-    {
-      numb: 41,
-      question: "",
-      answer:"",
-      options: [
-        "",
-        "",
-        "",
-        "",
-      ]
-    },
-    // 22
-    {
-      numb: 42,
-      question: "",
-      answer:"",
-      options: [
-        "",
-        "",
-        "",
-        "",
-      ]
-    },
-    // 23
-    {
-      numb: 43,
-      question: "",
-      answer:"",
-      options: [
-        "",
-        "",
-        "",
-        "",
-      ]
-    },
-    // 24
-    {
-      numb: 44,
-      question: "",
-      answer:"",
-      options: [
-        "",
-        "",
-        "",
-        "",
-      ]
-    },
-    // 25
-    {
-      numb: 45,
-      question: "",
-      answer:"",
-      options: [
-        "",
-        "",
-        "",
-        "",
-      ]
-    },
-    {
-      numb: 21,
-      question: "",
-      answer:"",
-      options: [
-        "",
-        "",
-        "",
-        "",
-      ]
-    },
+    // {
+    //   numb: 41,
+    //   question: "",
+    //   answer:"",
+    //   options: [
+    //     "",
+    //     "",
+    //     "",
+    //     "",
+    //   ]
+    // },
+    // // 22
+    // {
+    //   numb: 42,
+    //   question: "",
+    //   answer:"",
+    //   options: [
+    //     "",
+    //     "",
+    //     "",
+    //     "",
+    //   ]
+    // },
+    // // 23
+    // {
+    //   numb: 43,
+    //   question: "",
+    //   answer:"",
+    //   options: [
+    //     "",
+    //     "",
+    //     "",
+    //     "",
+    //   ]
+    // },
+    // // 24
+    // {
+    //   numb: 44,
+    //   question: "",
+    //   answer:"",
+    //   options: [
+    //     "",
+    //     "",
+    //     "",
+    //     "",
+    //   ]
+    // },
+    // // 25
+    // {
+    //   numb: 45,
+    //   question: "",
+    //   answer:"",
+    //   options: [
+    //     "",
+    //     "",
+    //     "",
+    //     "",
+    //   ]
+    // },
+    // {
+    //   numb: 21,
+    //   question: "",
+    //   answer:"",
+    //   options: [
+    //     "",
+    //     "",
+    //     "",
+    //     "",
+    //   ]
+    // },
 
   
   
