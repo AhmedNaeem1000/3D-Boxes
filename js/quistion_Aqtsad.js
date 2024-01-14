@@ -1021,10 +1021,10 @@ let questions = [
 
 
 // Shuffle questions array
-questions.sort(function() {
-  return 0.5 - Math.random();
-});
+// questions.sort(function() {
+//   return 0.5 - Math.random();
+// });
 
-// Select the first 30 questions
-questions = questions.slice(0, 30);
+// // Select the first 30 questions
+// questions = questions.slice(0, 30);
 
