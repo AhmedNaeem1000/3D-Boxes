@@ -1205,4 +1205,4 @@ questions.sort(function () {
 });
 
 // Select the first 30 questions
-questions = questions.slice(0, 30);
+questions = questions.slice(0, 20);
