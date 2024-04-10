@@ -8,15 +8,10 @@
 }
 
 body{
-    background: #007bff;
+  background-image: url('./wallpaperflare.com_wallpaper.jpg');
 }
 
-::selection{
-    color: #fff;
-    background: #007bff;
-}
 
-.start_btn,
 .info_box,
 .quiz_box,
 .result_box{
@@ -37,72 +32,79 @@ body{
     transform: translate(-50%, -50%) scale(1);
 }
 
-.but{
-  width: 50%;
-  margin-top: 50px;
-  display:grid;
-  padding: 10px;
-  
-  
+/* button */
+
+.bn31 {
+  background-image: linear-gradient(to right, #006175 0%, #0033a9 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  height: 70px;
+  font-size: 1.4em;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  z-index: 2;
 }
 
-.st-btn , a {
-  padding-top:-2px;
-  margin-top: -20px;
-  font-size: 35px;
-  font-weight:200;
-  color: #007bff;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  background: #fafafa;
-  cursor: pointer;
-
+.bn31:hover {
+  color: #fff;
 }
 
-.start_btn button {
-    font-size: 25px;
-    font-weight: 500;
-    color: #007bff;
-    padding: 15px 70px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    background: #fff;
-    cursor: pointer;
+.bn31 .bn31span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
 }
 
-#myButton , .soon{
-  width: 210px;
-  margin-top: 350px;
-  margin-left: 660px;
-  font-size: 25px;
-  font-weight: 500;
-  color: #007bff;
-  padding: 15px 70px;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  background: #fff;
-  cursor: pointer;
-
+.bn31:hover .bn31span {
+  background: transparent;
 }
 
-#myButtonTwo{
-  width: 610px;
-margin-top: 200px;
-width: 210px;
-margin-left: 177px;
-font-size: 25px;
-font-weight: 500;
-color: #007bff;
-padding: 15px 70px;
-outline: none;
-border: none;
-border-radius: 5px;
-background: #fff;
-cursor: pointer;
-}
+/* //button// */
+
+
+ /* start Quiz button  */
+ .start_btn{
+
+  background-image: linear-gradient(to right, #006175 0%, #0033a9 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  height: 70px;
+  font-size: 1.4em;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  z-index: 2;
+ }
+
+
+
+
+ /* //start Quiz button//  */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .info_box{
@@ -165,7 +167,8 @@ cursor: pointer;
 
 .quiz_box{
     width: 550px;
-    background: #fff;
+  background: #0d0d0df0;
+  color: #eae3e3;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -178,7 +181,7 @@ cursor: pointer;
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background: #fff;
+    background: #0d0d0df0;
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
@@ -189,11 +192,12 @@ cursor: pointer;
 .quiz_box header .title{
     font-size: 20px;
     font-weight: 600;
+    color: #f3f3f3;
 }
 
 .quiz_box header .timer{
-    color: #004085;
-    background: #cce5ff;
+    color: #f3f3f3;
+    background: #011953;
     border: 1px solid #b8daff;
     height: 45px;
     padding: 0 8px;
@@ -234,7 +238,8 @@ cursor: pointer;
 
 section{
     padding: 25px 30px 20px 30px;
-    background: #fff;
+    background: #0d0d0df0;
+
 }
 
 section .que_text{
@@ -248,7 +253,7 @@ section .option_list{
 }
 
 section .option_list .option{
-    background: aliceblue;
+    background: #022c8e;
     border: 1px solid #84c5fe;
     border-radius: 5px;
     padding: 8px 15px;
@@ -266,8 +271,7 @@ section .option_list .option:last-child{
 }
 
 section .option_list .option:hover{
-    color: #004085;
-    background: #cce5ff;
+    background: #011645;
     border: 1px solid #b8daff;
 }
 
@@ -437,3 +441,11 @@ footer button.show{
     color: #fff;
     background: #007bff;
 }
+
+
+
+
+
+
+
+
