@@ -242,9 +242,10 @@ section .option_list{
 }
 
 section .option_list .option{
-    background: #002527;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
+    background: #004347;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #fff;
     padding: 8px 15px;
     font-size: 17px;
     margin-bottom: 15px;
@@ -261,7 +262,7 @@ section .option_list .option:last-child{
 
 section .option_list .option:hover{
     background: #014b4f;
-    border: 1px solid #b8daff;
+    border: 1px solid #ffffff;
 }
 
 section .option_list .option.correct{
@@ -434,5 +435,6 @@ footer button.show{
       background: #002527;
     ;
 }
+
 
 
