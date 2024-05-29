@@ -12,17 +12,7 @@ let questions = [
       
     ],
   },
-  // 2
-  {
-    numb: 2,
-    question:"يقوم نظام المعلومات المحاسبي بتجميع وتسجيل وتبويب وتلخيص بيانات العمليات المالية التي تجريها الوحدة الاقتصادية خلال الفترة المحاسبية بهدف توفير معلومات مفيدة للمستخدمين من داخل او خارج المنشأة",
-    answer: "صح",
-    options: [
-      "صح",
-      "خطأ",
-      
-    ],
-  },
+
   // 3
   {
     numb: 3,
@@ -489,7 +479,7 @@ let questions = [
    // 45
    {
     numb: 45,
-    question:"وفقا للدليل المحاسبي يبدأ ترميز حسابات الاصول برقم 3 من اليسار الي اليمين",
+    question:"وفقا للدليل المحاسبي يبدأ ترميز حسابات المصروفات برقم 3 من اليسار الي اليمين",
     answer: "صح",
     options: [
       "صح",
@@ -1271,7 +1261,7 @@ let questions = [
     },
     {
       numb:39,
-      question:"من أهم الدواف الفنية لتطبيق نظم تخطيط موارد المنشأة.......",
+      question:"من أهم الدوافع الفنية لتطبيق نظم تخطيط موارد المنشأة.......",
       answer: "جميع ماسبق",
       options: [
         "تخفيض الأخطاء والتكرار في ادخال البيانات",
@@ -1298,10 +1288,10 @@ let questions = [
 
 
 // Shuffle questions array
-//questions.sort(function () {
-//  return 0.5 - Math.random();
-//});
+questions.sort(function () {
+  return 0.5 - Math.random();
+});
 
 // Select the first 30 questions
-//questions = questions.slice(0, 50);
+questions = questions.slice(0, 50);
 
